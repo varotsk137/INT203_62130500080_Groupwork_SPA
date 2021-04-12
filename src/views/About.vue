@@ -1,5 +1,6 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+<base-container>
+      <template v-slot:con-head>About</template>
+      <template v-slot:default>About </template>
+    </base-container>
 </template>

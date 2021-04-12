@@ -1,0 +1,90 @@
+{
+    "auth": [{
+        "id": 1,
+        "user": "admin",
+        "password": "123456"
+    }],
+    "prizes": [
+        { "id":"genshin" ,"items": [
+            {"id":1, "name":"Keqing", "rarity":5, "type":"Character"},
+            {"id":2, "name":"Qiqi", "rarity":5, "type":"Character"},
+            {"id":3, "name":"Jean", "rarity":5, "type":"Character"},
+            {"id":4, "name":"Diluc", "rarity":5, "type":"Character"},
+            {"id":5, "name":"Mona", "rarity":5, "type":"Character"},
+            {"id":6, "name":"Lisa", "rarity":4, "type":"Character"},
+            {"id":7, "name":"Amber", "rarity":4, "type":"Character"},
+            {"id":8, "name":"Diona", "rarity":4, "type":"Character"},
+            {"id":9, "name":"Xinyan", "rarity":4, "type":"Character"},
+            {"id":10, "name":"Sucrose", "rarity":4, "type":"Character"},
+            {"id":11, "name":"Noelle", "rarity":4, "type":"Character"},
+            {"id":12, "name":"Chongyun", "rarity":4, "type":"Character"},
+            {"id":13, "name":"Beidou", "rarity":4, "type":"Character"},
+            {"id":14, "name":"Ningguang", "rarity":4, "type":"Character"},
+            {"id":15, "name":"Xiangling", "rarity":4, "type":"Character"},
+            {"id":16, "name":"Xingqiu", "rarity":4, "type":"Character"},
+            {"id":17, "name":"Fischl", "rarity":4, "type":"Character"},
+            {"id":18, "name":"Bennett", "rarity":4, "type":"Character"},
+            {"id":19, "name":"Razor", "rarity":4, "type":"Character"},
+            {"id":20, "name":"Barbara", "rarity":4, "type":"Character"},
+            {"id":21, "name":"Kaeya", "rarity":4, "type":"Character"},
+            {"id":22, "name":"Skyward Harp", "rarity":5, "type":"Weapon"},
+            {"id":23, "name":"Skyward Atlas" , "rarity":5, "type":"Weapon"},
+            {"id":24, "name":"Skyward Spine", "rarity":5, "type":"Weapon"},
+            {"id":25, "name":"Skyward Pride", "rarity":5, "type":"Weapon"},
+            {"id":26, "name":"Skyward Blade", "rarity":5, "type":"Weapon"},
+            {"id":27, "name":"Amos' Bow", "rarity":5, "type":"Weapon"},
+            {"id":28, "name":"Lost Prayer to the Sacred Winds", "rarity":5, "type":"Weapon"},
+            {"id":29, "name":"Primodial Jade Winged-Spear", "rarity":5, "type":"Weapon"},
+            {"id":30, "name":"Wolf's Gravestone", "rarity":5, "type":"Weapon"},
+            {"id":31, "name":"Aquila Favonia", "rarity":5, "type":"Weapon"},
+            {"id":32, "name":"Rust", "rarity":4, "type":"Weapon"},
+            {"id":33, "name":"Sacrificial Bow", "rarity":4, "type":"Weapon"},
+            {"id":34, "name":"Sacrificial Fragments", "rarity":4, "type":"Weapon"},
+            {"id":35, "name":"Sacrificial Greatsword", "rarity":4, "type":"Weapon"},
+            {"id":36, "name":"Sacrificial Sword", "rarity":4, "type":"Weapon"},
+            {"id":37, "name":"The Stringless", "rarity":4, "type":"Weapon"},
+            {"id":38, "name":"The Widsith", "rarity":4, "type":"Weapon"},
+            {"id":39, "name":"The Bell", "rarity":4, "type":"Weapon"},
+            {"id":40, "name":"The Flute", "rarity":4, "type":"Weapon"},
+            {"id":41, "name":"Favonius Warbow", "rarity":4, "type":"Weapon"},
+            {"id":42, "name":"Favonius Lance", "rarity":4, "type":"Weapon"},
+            {"id":43, "name":"Favonius Sword", "rarity":4, "type":"Weapon"},
+            {"id":44, "name":"Favonius Greatsword", "rarity":4, "type":"Weapon"},
+            {"id":45, "name":"Favonius Codex", "rarity":4, "type":"Weapon"},
+            {"id":46, "name":"Dragon's Bane", "rarity":4, "type":"Weapon"},
+            {"id":47, "name":"Rainslasher", "rarity":4, "type":"Weapon"},
+            {"id":48, "name":"Lion's Roar", "rarity":4, "type":"Weapon"},
+            {"id":49, "name":"Eye of Perception", "rarity":4, "type":"Weapon"},
+            {"id":50, "name":"Slingshot", "rarity":3, "type":"Weapon"},
+            {"id":51, "name":"Thrilling Tales of Dragon Slayers", "rarity":3, "type":"Weapon"},
+            {"id":52, "name":"Sharpshooter's Oath", "rarity":3, "type":"Weapon"},
+            {"id":53, "name":"Ferrous Shadow", "rarity":3, "type":"Weapon"},
+            {"id":54, "name":"Skyrider Sword", "rarity":3, "type":"Weapon"},
+            {"id":55, "name":"Cool Steel", "rarity":3, "type":"Weapon"},
+            {"id":56, "name":"Debate Club", "rarity":3, "type":"Weapon"},
+            {"id":57, "name":"Black Tassel", "rarity":3, "type":"Weapon"},
+            {"id":58, "name":"Bloodtainted Greatsword", "rarity":3, "type":"Weapon"},
+            {"id":59, "name":"Magic Guide", "rarity":3, "type":"Weapon"},
+            {"id":60, "name":"Emerald Orb", "rarity":3, "type":"Weapon"},
+            {"id":61, "name":"Raven Bow", "rarity":3, "type":"Weapon"},
+            {"id":62, "name":"Harbinger of Dawn", "rarity":3, "type":"Weapon"}
+        ]},
+        { "id":"buruaka" ,"items": [
+            {"id":1, "name":"momoi", "rarity":2}
+        ]}
+    ],
+    "inv": [
+        { "id" : 1 , "userId" : 1, "prizeId" : "genshin", "itemId" : 1, "amount": 1},
+        { "id" : 2 , "userId" : 1, "prizeId" : "buruaka", "itemId" : 1, "amount": 1}
+    ],
+    
+        "posts": [
+          { "id": 1, "title": "json-server", "author": "typicode" },
+          { "id": 2, "title": "jsonssssr", "author": "typicodesss" }
+        ],
+        "comments": [
+          { "id": 1, "body": "some comment", "postId": 1 }
+        ],
+        "profile": { "name": "typicode" }
+      
+}
