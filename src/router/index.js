@@ -30,6 +30,10 @@ const routes = [
     path: '/umamusu',
     name: 'Umamusu',
     component: () => import('../views/UmamusuGacha.vue')
+  },{
+    path: '/inventory',
+    name: 'Inventory',
+    component: () => import('../views/Inventory.vue')
   },
   {
     path: '/:name/results/:num',
@@ -50,8 +54,8 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
   if(to.matched.some(record => record.meta.checkFromPath)){
-    console.log(to)
-    console.log(from)
+    // console.log(to)
+    // console.log(from)
     if(from.path==='/genshin'||from.path==='/bluearc'||from.path==='/umamusu'){
       next()
     } else {

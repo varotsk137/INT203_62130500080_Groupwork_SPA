@@ -395,7 +395,7 @@
     {
       "id": 50,
       "name": "Slingshot",
-      "rarity": 3,  
+      "rarity": 3,
       "type": "Weapon",
       "game": "genshin",
       "alias": "slings"
@@ -904,42 +904,248 @@
       "game": "bluearc",
       "alias": "suzumi"
     },
-    { "id": 114, "name": "Special Week", "rarity": 3, "type": "1", "game": "umamusu", "alias": "SpecialW" },
-    { "id": 115, "name": "Silence Suzuka", "rarity": 3, "type": "1", "game": "umamusu", "alias": "SilenceS" },
-    { "id": 116, "name": "Tokai Teio", "rarity": 3, "type": "1", "game": "umamusu", "alias": "TokaiT" },
-    { "id": 117, "name": "Maruzensky", "rarity": 3, "type": "1", "game": "umamusu", "alias": "Maruzensky" },
-    { "id": 118, "name": "Oguri Cap", "rarity": 3, "type": "1", "game": "umamusu", "alias": "OguriC" },
-    { "id": 119, "name": "Mejiro McQueen", "rarity": 3, "type": "1", "game": "umamusu", "alias": "MejiroM" },
-    { "id": 120, "name": "Taiki Shuttle", "rarity": 3, "type": "1", "game": "umamusu", "alias": "TaikiS" },
-    { "id": 121, "name": "Symboli Rudolf", "rarity": 3, "type": "1", "game": "umamusu", "alias": "SymboliR" },
-    { "id": 122, "name": "Mihono Bourbon", "rarity": 3, "type": "1", "game": "umamusu", "alias": "MihonoB" },
-    { "id": 123, "name": "Rice Shower", "rarity": 3, "type": "1", "game": "umamusu", "alias": "RiceS" },
-    { "id": 124, "name": "TM Opera O", "rarity": 3, "type": "1", "game": "umamusu", "alias": "TMOO" },
-    { "id": 125, "name": "Biwa Hayahide", "rarity": 3, "type": "1", "game": "umamusu", "alias": "BiwaH" },
-    { "id": 126, "name": "Mejiro McQueen", "rarity": 3, "type": "2", "game": "umamusu", "alias": "MejiroM2" },
-    { "id": 127, "name": "Tokai Teio", "rarity": 3, "type": "2", "game": "umamusu", "alias": "TokaiT2" },
-    { "id": 128, "name": "Gold Ship", "rarity": 2, "type": "1", "game": "umamusu", "alias": "GoldS" },
-    { "id": 129, "name": "Vodka", "rarity": 2, "type": "1", "game": "umamusu", "alias": "Vodka" },
-    { "id": 130, "name": "Daiwa Scarlet", "rarity": 2, "type": "1", "game": "umamusu", "alias": "DaiwaS" },
-    { "id": 131, "name": "Grass Wonder", "rarity": 2, "type": "1", "game": "umamusu", "alias": "GrassW" },
-    { "id": 132, "name": "El Condor Pasa", "rarity": 2, "type": "1", "game": "umamusu", "alias": "ECP" },
-    { "id": 133, "name": "Air Groove", "rarity": 2, "type": "1", "game": "umamusu", "alias": "AirG" },
-    { "id": 134, "name": "Mayano Top Gun", "rarity": 2, "type": "1", "game": "umamusu", "alias": "MayanoT" },
-    { "id": 135, "name": "Super Creek", "rarity": 2, "type": "1", "game": "umamusu", "alias": "SuperC" },
-    { "id": 136, "name": "Sakura Bakushin O", "rarity": 1, "type": "1", "game": "umamusu", "alias": "SakuraB" },
-    { "id": 137, "name": "Nice Nature", "rarity": 1, "type": "1", "game": "umamusu", "alias": "NiceN" },
-    { "id": 138, "name": "Agnes Tachyon", "rarity": 1, "type": "1", "game": "umamusu", "alias": "AgnesT" },
-    { "id": 139, "name": "Winning Ticket", "rarity": 1, "type": "1", "game": "umamusu", "alias": "WinningT" },
-    { "id": 140, "name": "Haru Urara", "rarity": 1, "type": "1", "game": "umamusu", "alias": "HaruU" },
-    { "id": 141, "name": "Mejiro Ryan", "rarity": 1, "type": "1", "game": "umamusu", "alias": "MejiroR" },
-    { "id": 142, "name": "Machikane Fukukitaru", "rarity": 1, "type": "1", "game": "umamusu", "alias": "MachikaneF" },
-    { "id": 143, "name": "King Halo", "rarity": 1, "type": "1", "game": "umamusu", "alias": "KingH" }
+    {
+      "id": 114,
+      "name": "Special Week",
+      "rarity": 3,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "SpecialW"
+    },
+    {
+      "id": 115,
+      "name": "Silence Suzuka",
+      "rarity": 3,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "SilenceS"
+    },
+    {
+      "id": 116,
+      "name": "Tokai Teio",
+      "rarity": 3,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "TokaiT"
+    },
+    {
+      "id": 117,
+      "name": "Maruzensky",
+      "rarity": 3,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "Maruzensky"
+    },
+    {
+      "id": 118,
+      "name": "Oguri Cap",
+      "rarity": 3,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "OguriC"
+    },
+    {
+      "id": 119,
+      "name": "Mejiro McQueen",
+      "rarity": 3,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "MejiroM"
+    },
+    {
+      "id": 120,
+      "name": "Taiki Shuttle",
+      "rarity": 3,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "TaikiS"
+    },
+    {
+      "id": 121,
+      "name": "Symboli Rudolf",
+      "rarity": 3,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "SymboliR"
+    },
+    {
+      "id": 122,
+      "name": "Mihono Bourbon",
+      "rarity": 3,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "MihonoB"
+    },
+    {
+      "id": 123,
+      "name": "Rice Shower",
+      "rarity": 3,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "RiceS"
+    },
+    {
+      "id": 124,
+      "name": "TM Opera O",
+      "rarity": 3,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "TMOO"
+    },
+    {
+      "id": 125,
+      "name": "Biwa Hayahide",
+      "rarity": 3,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "BiwaH"
+    },
+    {
+      "id": 126,
+      "name": "Mejiro McQueen",
+      "rarity": 3,
+      "type": "2",
+      "game": "umamusu",
+      "alias": "MejiroM2"
+    },
+    {
+      "id": 127,
+      "name": "Tokai Teio",
+      "rarity": 3,
+      "type": "2",
+      "game": "umamusu",
+      "alias": "TokaiT2"
+    },
+    {
+      "id": 128,
+      "name": "Gold Ship",
+      "rarity": 2,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "GoldS"
+    },
+    {
+      "id": 129,
+      "name": "Vodka",
+      "rarity": 2,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "Vodka"
+    },
+    {
+      "id": 130,
+      "name": "Daiwa Scarlet",
+      "rarity": 2,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "DaiwaS"
+    },
+    {
+      "id": 131,
+      "name": "Grass Wonder",
+      "rarity": 2,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "GrassW"
+    },
+    {
+      "id": 132,
+      "name": "El Condor Pasa",
+      "rarity": 2,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "ECP"
+    },
+    {
+      "id": 133,
+      "name": "Air Groove",
+      "rarity": 2,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "AirG"
+    },
+    {
+      "id": 134,
+      "name": "Mayano Top Gun",
+      "rarity": 2,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "MayanoT"
+    },
+    {
+      "id": 135,
+      "name": "Super Creek",
+      "rarity": 2,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "SuperC"
+    },
+    {
+      "id": 136,
+      "name": "Sakura Bakushin O",
+      "rarity": 1,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "SakuraB"
+    },
+    {
+      "id": 137,
+      "name": "Nice Nature",
+      "rarity": 1,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "NiceN"
+    },
+    {
+      "id": 138,
+      "name": "Agnes Tachyon",
+      "rarity": 1,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "AgnesT"
+    },
+    {
+      "id": 139,
+      "name": "Winning Ticket",
+      "rarity": 1,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "WinningT"
+    },
+    {
+      "id": 140,
+      "name": "Haru Urara",
+      "rarity": 1,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "HaruU"
+    },
+    {
+      "id": 141,
+      "name": "Mejiro Ryan",
+      "rarity": 1,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "MejiroR"
+    },
+    {
+      "id": 142,
+      "name": "Machikane Fukukitaru",
+      "rarity": 1,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "MachikaneF"
+    },
+    {
+      "id": 143,
+      "name": "King Halo",
+      "rarity": 1,
+      "type": "1",
+      "game": "umamusu",
+      "alias": "KingH"
+    }
   ],
   "inv": [
-    {
-      "id": 1,
-      "itemId": 1,
-      "amount": 1
-    }
+    
   ]
 }

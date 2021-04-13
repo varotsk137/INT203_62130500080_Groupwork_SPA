@@ -11,7 +11,9 @@
         <the-game-banner @pushRoute="pushRoute"></the-game-banner>
         <div class="grid justify-items-center mt-5 space-y-3">
           <p class="text-center text-base font-medium">Click here to see the results</p>
+          <router-link to="inventory">
           <img src="@/assets/banner/inventory.jpg" class="transform scale-90 hover:scale-100 transition-transform ease-in-out shadow-lg rounded-xl" />
+          </router-link>
         </div>
       </template>
     </base-container>
