@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "backend": "json-server --watch data.json"
+    "backend": "json-server --watch data.json --host 0.0.0.0"
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",

@@ -22,11 +22,11 @@ export default {
     methods:{
         roll1(){
             console.log("click roll1")
-            this.$emit("roll1")
+            this.$emit("roll1",1)
         },
         roll10(){
             console.log("click roll10")
-            this.$emit("roll10")
+            this.$emit("roll10",10)
         }
         }
     }

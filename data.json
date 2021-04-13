@@ -5,792 +5,935 @@
       "name": "Keqing",
       "rarity": 5,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "keqing"
     },
     {
       "id": 2,
       "name": "Qiqi",
       "rarity": 5,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "qiqi"
     },
     {
       "id": 3,
       "name": "Jean",
       "rarity": 5,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "jean"
     },
     {
       "id": 4,
       "name": "Diluc",
       "rarity": 5,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "diluc"
     },
     {
       "id": 5,
       "name": "Mona",
       "rarity": 5,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "mona"
     },
     {
       "id": 6,
       "name": "Lisa",
       "rarity": 4,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "lisa"
     },
     {
       "id": 7,
       "name": "Amber",
       "rarity": 4,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "amber"
     },
     {
       "id": 8,
       "name": "Diona",
       "rarity": 4,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "diona"
     },
     {
       "id": 9,
       "name": "Xinyan",
       "rarity": 4,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "xinyan"
     },
     {
       "id": 10,
       "name": "Sucrose",
       "rarity": 4,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "sucrose"
     },
     {
       "id": 11,
       "name": "Noelle",
       "rarity": 4,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "noelle"
     },
     {
       "id": 12,
       "name": "Chongyun",
       "rarity": 4,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "chongyun"
     },
     {
       "id": 13,
       "name": "Beidou",
       "rarity": 4,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "beidou"
     },
     {
       "id": 14,
       "name": "Ningguang",
       "rarity": 4,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "ningguang"
     },
     {
       "id": 15,
       "name": "Xiangling",
       "rarity": 4,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "xiangling"
     },
     {
       "id": 16,
       "name": "Xingqiu",
       "rarity": 4,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "xingqiu"
     },
     {
       "id": 17,
       "name": "Fischl",
       "rarity": 4,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "fischl"
     },
     {
       "id": 18,
       "name": "Bennett",
       "rarity": 4,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "bennett"
     },
     {
       "id": 19,
       "name": "Razor",
       "rarity": 4,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "razor"
     },
     {
       "id": 20,
       "name": "Barbara",
       "rarity": 4,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "barbara"
     },
     {
       "id": 21,
       "name": "Kaeya",
       "rarity": 4,
       "type": "Character",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "kaeya"
     },
     {
       "id": 22,
       "name": "Skyward Harp",
       "rarity": 5,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "skyH"
     },
     {
       "id": 23,
       "name": "Skyward Atlas",
       "rarity": 5,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "skyA"
     },
     {
       "id": 24,
       "name": "Skyward Spine",
       "rarity": 5,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "skyS"
     },
     {
       "id": 25,
       "name": "Skyward Pride",
       "rarity": 5,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "skyP"
     },
     {
       "id": 26,
       "name": "Skyward Blade",
       "rarity": 5,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "skyB"
     },
     {
       "id": 27,
       "name": "Amos' Bow",
       "rarity": 5,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "amos"
     },
     {
       "id": 28,
       "name": "Lost Prayer to the Sacred Winds",
       "rarity": 5,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "lostP"
     },
     {
       "id": 29,
       "name": "Primodial Jade Winged-Spear",
       "rarity": 5,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "primodialJ"
     },
     {
       "id": 30,
       "name": "Wolf's Gravestone",
       "rarity": 5,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "wolfG"
     },
     {
       "id": 31,
       "name": "Aquila Favonia",
       "rarity": 5,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "aquila"
     },
     {
       "id": 32,
       "name": "Rust",
       "rarity": 4,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "rust"
     },
     {
       "id": 33,
       "name": "Sacrificial Bow",
       "rarity": 4,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "sacb"
     },
     {
       "id": 34,
       "name": "Sacrificial Fragments",
       "rarity": 4,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "sacf"
     },
     {
       "id": 35,
       "name": "Sacrificial Greatsword",
       "rarity": 4,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "sacgs"
     },
     {
       "id": 36,
       "name": "Sacrificial Sword",
       "rarity": 4,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "sacs"
     },
     {
       "id": 37,
       "name": "The Stringless",
       "rarity": 4,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "stringless"
     },
     {
       "id": 38,
       "name": "The Widsith",
       "rarity": 4,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "widsith"
     },
     {
       "id": 39,
       "name": "The Bell",
       "rarity": 4,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "thebell"
     },
     {
       "id": 40,
       "name": "The Flute",
       "rarity": 4,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "theflute"
     },
     {
       "id": 41,
       "name": "Favonius Warbow",
       "rarity": 4,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "favwb"
     },
     {
       "id": 42,
       "name": "Favonius Lance",
       "rarity": 4,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "favl"
     },
     {
       "id": 43,
       "name": "Favonius Sword",
       "rarity": 4,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "favs"
     },
     {
       "id": 44,
       "name": "Favonius Greatsword",
       "rarity": 4,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "favgs"
     },
     {
       "id": 45,
       "name": "Favonius Codex",
       "rarity": 4,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "favcodex"
     },
     {
       "id": 46,
       "name": "Dragon's Bane",
       "rarity": 4,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "dragonbane"
     },
     {
       "id": 47,
       "name": "Rainslasher",
       "rarity": 4,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "rains"
     },
     {
       "id": 48,
       "name": "Lion's Roar",
       "rarity": 4,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "lionroar"
     },
     {
       "id": 49,
       "name": "Eye of Perception",
       "rarity": 4,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "EoP"
     },
     {
       "id": 50,
       "name": "Slingshot",
-      "rarity": 3,
+      "rarity": 3,  
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "slings"
     },
     {
       "id": 51,
       "name": "Thrilling Tales of Dragon Slayers",
       "rarity": 3,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "TToDS"
     },
     {
       "id": 52,
       "name": "Sharpshooter's Oath",
       "rarity": 3,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "sharpo"
     },
     {
       "id": 53,
       "name": "Ferrous Shadow",
       "rarity": 3,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "ferrouss"
     },
     {
       "id": 54,
       "name": "Skyrider Sword",
       "rarity": 3,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "skyriders"
     },
     {
       "id": 55,
       "name": "Cool Steel",
       "rarity": 3,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "cools"
     },
     {
       "id": 56,
       "name": "Debate Club",
       "rarity": 3,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "debatec"
     },
     {
       "id": 57,
       "name": "Black Tassel",
       "rarity": 3,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "blackt"
     },
     {
       "id": 58,
       "name": "Bloodtainted Greatsword",
       "rarity": 3,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "bloodt"
     },
     {
       "id": 59,
       "name": "Magic Guide",
       "rarity": 3,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "magicg"
     },
     {
       "id": 60,
       "name": "Emerald Orb",
       "rarity": 3,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "emeraldo"
     },
     {
       "id": 61,
       "name": "Raven Bow",
       "rarity": 3,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "ravenb"
     },
     {
       "id": 62,
       "name": "Harbinger of Dawn",
       "rarity": 3,
       "type": "Weapon",
-      "game": "genshin"
+      "game": "genshin",
+      "alias": "HoD"
     },
     {
       "id": 63,
       "name": "Hina",
       "rarity": 3,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "hina"
     },
     {
       "id": 64,
       "name": "Iori",
       "rarity": 3,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "iori"
     },
     {
       "id": 65,
       "name": "Haruna",
       "rarity": 3,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "haruna"
     },
     {
       "id": 66,
       "name": "Izumi",
       "rarity": 3,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "izumi"
     },
     {
       "id": 67,
       "name": "Aru",
       "rarity": 3,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "aru"
     },
     {
       "id": 68,
       "name": "Sumire",
       "rarity": 3,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "sumire"
     },
     {
       "id": 69,
       "name": "Eimi",
       "rarity": 3,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "eimi"
     },
     {
       "id": 70,
       "name": "Karin",
       "rarity": 3,
       "type": "Special",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "karin"
     },
     {
       "id": 71,
       "name": "Neru",
       "rarity": 3,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "neru"
     },
     {
       "id": 72,
       "name": "Hibiki",
       "rarity": 3,
       "type": "Special",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "hibiki"
     },
     {
       "id": 73,
       "name": "Saya",
       "rarity": 3,
       "type": "Special",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "saya"
     },
     {
       "id": 74,
       "name": "Shun",
       "rarity": 3,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "shun"
     },
     {
       "id": 75,
       "name": "Shiroko",
       "rarity": 3,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "shiroko"
     },
     {
       "id": 76,
       "name": "Hoshino",
       "rarity": 3,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "hoshino"
     },
     {
       "id": 77,
       "name": "Hifumi",
       "rarity": 3,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "hifumi"
     },
     {
       "id": 78,
       "name": "Tsurugi",
       "rarity": 3,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "tsurugi"
     },
     {
       "id": 79,
       "name": "Mashiro",
       "rarity": 3,
       "type": "Special",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "mashiro"
     },
     {
       "id": 80,
       "name": "Maki",
       "rarity": 3,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "maki"
     },
     {
       "id": 81,
       "name": "Arisu",
       "rarity": 3,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "arisu"
     },
     {
       "id": 82,
       "name": "Midori",
       "rarity": 3,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "midori"
     },
     {
       "id": 83,
       "name": "Izuna",
       "rarity": 3,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "izuna"
     },
     {
       "id": 84,
       "name": "Akane",
       "rarity": 2,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "akane"
     },
     {
       "id": 85,
       "name": "Akari",
       "rarity": 2,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "akari"
     },
     {
       "id": 86,
       "name": "Chise",
       "rarity": 2,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "chise"
     },
     {
       "id": 87,
       "name": "Hasumi",
       "rarity": 2,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "hasumi"
     },
     {
       "id": 88,
       "name": "Junko",
       "rarity": 2,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "junko"
     },
     {
       "id": 89,
       "name": "Kayoko",
       "rarity": 2,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "kayoko"
     },
     {
       "id": 90,
       "name": "Momoi",
       "rarity": 2,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "momoi"
     },
     {
       "id": 91,
       "name": "Mutsuki",
       "rarity": 2,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "mutsuki"
     },
     {
       "id": 92,
       "name": "Nonomi",
       "rarity": 2,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "nonomi"
     },
     {
       "id": 93,
       "name": "Serika",
       "rarity": 2,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "serika"
     },
     {
       "id": 94,
       "name": "Tsubaki",
       "rarity": 2,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "tsubaki"
     },
     {
       "id": 95,
       "name": "Yuuka",
       "rarity": 2,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "yuuka"
     },
     {
       "id": 96,
       "name": "Airi",
       "rarity": 2,
       "type": "Special",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "airi"
     },
     {
       "id": 97,
       "name": "Ayane",
       "rarity": 2,
       "type": "Special",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "ayane"
     },
     {
       "id": 98,
       "name": "Fuuka",
       "rarity": 2,
       "type": "Special",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "fuuka"
     },
     {
       "id": 99,
       "name": "Hanae",
       "rarity": 2,
       "type": "Special",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "hanae"
     },
     {
       "id": 100,
       "name": "Hare",
       "rarity": 2,
       "type": "Special",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "hare"
     },
     {
       "id": 101,
       "name": "Shizuko",
       "rarity": 2,
       "type": "Special",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "shizuko"
     },
     {
       "id": 102,
       "name": "Utaha",
       "rarity": 2,
       "type": "Special",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "utaha"
     },
     {
       "id": 103,
       "name": "Chinatsu",
       "rarity": 1,
       "type": "Special",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "chinatsu"
     },
     {
       "id": 104,
       "name": "Juri",
       "rarity": 1,
       "type": "Special",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "juri"
     },
     {
       "id": 105,
       "name": "Kotama",
       "rarity": 1,
       "type": "Special",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "kotama"
     },
     {
       "id": 106,
       "name": "Serina",
       "rarity": 1,
       "type": "Special",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "serina"
     },
     {
       "id": 107,
       "name": "Shimiko",
       "rarity": 1,
       "type": "Special",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "shimiko"
     },
     {
       "id": 108,
       "name": "Yoshimi",
       "rarity": 1,
       "type": "Special",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "yoshimi"
     },
     {
       "id": 109,
       "name": "Asuna",
       "rarity": 1,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "asuna"
     },
     {
       "id": 110,
       "name": "Fina",
       "rarity": 1,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "fiina"
     },
     {
       "id": 111,
       "name": "Haruka",
       "rarity": 1,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "haruka"
     },
     {
       "id": 112,
       "name": "Kotori",
       "rarity": 1,
       "type": "Striker",
-      "game": "buruaka"
+      "game": "bluearc",
+      "alias": "kotori"
     },
     {
       "id": 113,
       "name": "Suzumi",
       "rarity": 1,
       "type": "Striker",
-      "game": "buruaka"
-    }
+      "game": "bluearc",
+      "alias": "suzumi"
+    },
+    { "id": 114, "name": "Special Week", "rarity": 3, "type": "1", "game": "umamusu", "alias": "SpecialW" },
+    { "id": 115, "name": "Silence Suzuka", "rarity": 3, "type": "1", "game": "umamusu", "alias": "SilenceS" },
+    { "id": 116, "name": "Tokai Teio", "rarity": 3, "type": "1", "game": "umamusu", "alias": "TokaiT" },
+    { "id": 117, "name": "Maruzensky", "rarity": 3, "type": "1", "game": "umamusu", "alias": "Maruzensky" },
+    { "id": 118, "name": "Oguri Cap", "rarity": 3, "type": "1", "game": "umamusu", "alias": "OguriC" },
+    { "id": 119, "name": "Mejiro McQueen", "rarity": 3, "type": "1", "game": "umamusu", "alias": "MejiroM" },
+    { "id": 120, "name": "Taiki Shuttle", "rarity": 3, "type": "1", "game": "umamusu", "alias": "TaikiS" },
+    { "id": 121, "name": "Symboli Rudolf", "rarity": 3, "type": "1", "game": "umamusu", "alias": "SymboliR" },
+    { "id": 122, "name": "Mihono Bourbon", "rarity": 3, "type": "1", "game": "umamusu", "alias": "MihonoB" },
+    { "id": 123, "name": "Rice Shower", "rarity": 3, "type": "1", "game": "umamusu", "alias": "RiceS" },
+    { "id": 124, "name": "TM Opera O", "rarity": 3, "type": "1", "game": "umamusu", "alias": "TMOO" },
+    { "id": 125, "name": "Biwa Hayahide", "rarity": 3, "type": "1", "game": "umamusu", "alias": "BiwaH" },
+    { "id": 126, "name": "Mejiro McQueen", "rarity": 3, "type": "2", "game": "umamusu", "alias": "MejiroM2" },
+    { "id": 127, "name": "Tokai Teio", "rarity": 3, "type": "2", "game": "umamusu", "alias": "TokaiT2" },
+    { "id": 128, "name": "Gold Ship", "rarity": 2, "type": "1", "game": "umamusu", "alias": "GoldS" },
+    { "id": 129, "name": "Vodka", "rarity": 2, "type": "1", "game": "umamusu", "alias": "Vodka" },
+    { "id": 130, "name": "Daiwa Scarlet", "rarity": 2, "type": "1", "game": "umamusu", "alias": "DaiwaS" },
+    { "id": 131, "name": "Grass Wonder", "rarity": 2, "type": "1", "game": "umamusu", "alias": "GrassW" },
+    { "id": 132, "name": "El Condor Pasa", "rarity": 2, "type": "1", "game": "umamusu", "alias": "ECP" },
+    { "id": 133, "name": "Air Groove", "rarity": 2, "type": "1", "game": "umamusu", "alias": "AirG" },
+    { "id": 134, "name": "Mayano Top Gun", "rarity": 2, "type": "1", "game": "umamusu", "alias": "MayanoT" },
+    { "id": 135, "name": "Super Creek", "rarity": 2, "type": "1", "game": "umamusu", "alias": "SuperC" },
+    { "id": 136, "name": "Sakura Bakushin O", "rarity": 1, "type": "1", "game": "umamusu", "alias": "SakuraB" },
+    { "id": 137, "name": "Nice Nature", "rarity": 1, "type": "1", "game": "umamusu", "alias": "NiceN" },
+    { "id": 138, "name": "Agnes Tachyon", "rarity": 1, "type": "1", "game": "umamusu", "alias": "AgnesT" },
+    { "id": 139, "name": "Winning Ticket", "rarity": 1, "type": "1", "game": "umamusu", "alias": "WinningT" },
+    { "id": 140, "name": "Haru Urara", "rarity": 1, "type": "1", "game": "umamusu", "alias": "HaruU" },
+    { "id": 141, "name": "Mejiro Ryan", "rarity": 1, "type": "1", "game": "umamusu", "alias": "MejiroR" },
+    { "id": 142, "name": "Machikane Fukukitaru", "rarity": 1, "type": "1", "game": "umamusu", "alias": "MachikaneF" },
+    { "id": 143, "name": "King Halo", "rarity": 1, "type": "1", "game": "umamusu", "alias": "KingH" }
   ],
   "inv": [
     {
