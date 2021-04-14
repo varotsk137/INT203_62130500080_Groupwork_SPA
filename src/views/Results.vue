@@ -266,7 +266,6 @@ export default {
       this.changeProcess()
     },
     changeProcess(){
-      console.log('555555555555555555')
       this.inProcess = !this.inProcess
     },
     async storeItem2(item) {

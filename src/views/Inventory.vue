@@ -14,11 +14,12 @@
             </button>
         </div>
 
-        <div>
-            <!-- add filter & delete here -->
-        </div>
         
-        <div v-if="inventory.length>0">
+        <div v-if="inventory.length>0 && show===true" class="space-y-3">
+            <div class="mx-auto w-4/6 bg-gray-500 h-px"></div>  
+            <div id="menu" class="w-4/6 mx-auto flex justify-center">
+                <button @click="clearInventory" class="bg-red-500 rounded-full h-8 w-36 shadow-md text-white font-bold">Clear Inventory</button>
+            </div>
             <table class="mx-auto w-8/12 border border-collapse border-gray-500">
                 <tr>
                     <th class="border border-collapse border-gray-500"></th>
@@ -32,6 +33,14 @@
                 </tr>
             </table>
         </div>
+        <div v-else-if="inventory.length===0 && show===true" class="text-center align-center mx-auto text-2xl font-semibold space-y-3">
+            <div class="mx-auto w-4/6 bg-gray-500 h-px"></div>
+            <p>Nothing here yet..</p>
+        </div>
+        <div v-else class="text-center align-center mx-auto text-2xl font-semibold space-y-3">
+            <div class="mx-auto w-4/6 bg-gray-500 h-px"></div>
+            <p>Please select the game inventory you want to view.</p>
+        </div>
     </template>
     </base-container>
 </template>
@@ -40,8 +49,12 @@ export default {
     name: "Inventory",
     data() {
         return {
+            game: '',
             inventory: [],
             serverUrl: 'http://localhost:3000',
+            show: false,
+            searchInput: '',
+            sortMode: ''
             // sortBy: 'rarity'
         }
     },
@@ -53,10 +66,21 @@ export default {
             try {
                 const res = await fetch(`${this.serverUrl}/inv?game=${game}&_sort=rarity,type,name&_order=desc,asc,asc`)
                 this.inventory = await res.json()
+                this.game = game
+                this.show = true
             } catch (error) {
                 console.log(error)
             }
+        },
+        async clearInventory(){
+            for (let i = 0; i < this.inventory.length; i++) {
+                const res = await fetch(`${this.serverUrl}/inv/${this.inventory[i].id}`, {
+                    method: 'DELETE'
+                })
+                await res.json();
+            }
+            await this.showTable(this.game)
         }
-    }
+    },
 }
 </script>
