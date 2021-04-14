@@ -36,6 +36,11 @@ const routes = [
     component: () => import('../views/Inventory.vue')
   },
   {
+    path: '/inventory/:game',
+    name: 'InventoryWithParams',
+    component: () => import('../views/Inventory.vue')
+  },
+  {
     path: '/:name/results/:num',
     name: 'Results',
     component: () => import('../views/Results.vue'),

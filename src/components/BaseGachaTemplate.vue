@@ -1,5 +1,5 @@
 <template>
-  <div id="gachatemp" class="w-10/12 mx-auto my-5 space-y-5">
+  <div id="gachatemp" class="w-10/12 mx-auto mt-5 space-y-5">
     <div id="banner" class="flex rounded-xl justify-center">
         <slot name="bannerimg"></slot>
     </div>

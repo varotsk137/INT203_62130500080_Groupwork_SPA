@@ -82,5 +82,10 @@ export default {
             await this.showTable(this.game)
         }
     },
+    created() {
+        if(this.$route.params.game!==undefined){
+            this.showTable(this.$route.params.game)
+        }
+    }
 }
 </script>

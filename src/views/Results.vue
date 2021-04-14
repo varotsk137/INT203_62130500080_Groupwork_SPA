@@ -24,27 +24,32 @@
             </div>
           </template>
           <template v-slot:rollx1
-            ><img v-if="!inProcess" :src="getRollUrl(this.game, 1)"
+            ><img v-if="!inProcess" :src="getRollUrl(this.game, 1)" class="h-24"
           /></template>
           <template v-slot:rollx10
-            ><img  v-if="!inProcess" :src="getRollUrl(this.game, 10)"
+            ><img  v-if="!inProcess" :src="getRollUrl(this.game, 10)" class="h-24"
           /></template>
         </base-gacha-template>
+        <div class="flex justify-center "  v-if="!inProcess">
+          <button @click="toInv">
+            <img src="@/assets/banner/inventory.jpg" class="transform scale-75 hover:scale-90 transition-transform ease-in-out shadow-lg rounded-xl" />
+          </button>
+        </div>
         <div
           id="statistic"
           class="border-2 border-gray-500 mx-auto w-3/5 h-max px-5 py-2 rounded-2xl"
         >
           <div id="stat-header" class="text-center">
-            <p>Statistic</p>
-            <div id="bar" class="h-px w-4/5 bg-gray-500 mx-auto"></div>
+            <p class="text-2xl font-bold">Statistic</p>
+            <div id="bar" class="h-px w-4/5 bg-gray-500 mx-auto my-2"></div>
           </div>
-          <div id="stat-content" class="">
-            <p>Total {{ totalRoll }} roll(s)</p>
-            <p>
-              Currently used <b>{{ calCurrency.num }}</b> {{ calCurrency.currency }}
-            </p>
-            <p>Currently get <b>{{ countMax }}</b> {{ maxStar }}✬, cal as {{ calPercent }}%</p>
-            <p v-if="game==='genshin'">Need {{ calGuarantee }} more roll(s) to get 5✬.</p>
+          <div id="stat-content" class="grid grid-cols-2">
+              <p>Total {{ totalRoll }} roll(s)</p>
+              <p>
+                Currently used <b>{{ calCurrency.num }}</b> {{ calCurrency.currency }}
+              </p>
+              <p>Currently get <b>{{ countMax }}</b> {{ maxStar }}✬, cal as {{ calPercent }}%</p>
+              <p v-if="game==='genshin'">Need {{ calGuarantee }} more roll(s) to get 5✬.</p>
           </div>
         </div>
       </template>
@@ -117,6 +122,9 @@ export default {
     routeBack() {
       this.$router.go(-1);
     },
+    toInv(){
+      this.$router.push({path: `/inventory/${this.game}`})
+    },
     async fetchPool() {
       try {
         const res = await fetch(`${this.serverUrl}/prizes?game=${this.game}`);
@@ -129,7 +137,8 @@ export default {
 
     async draw(numRoll) {
       this.changeProcess()
-      this.currentDraws = [];
+      let temppool = [];
+      // this.currentDraws = [];
       this.totalRoll += numRoll;
       if (this.game === "genshin") {
         for (let i = 0; i < numRoll; i++) {
@@ -183,7 +192,7 @@ export default {
           // Random items in same categories
           const random2 = Math.floor(Math.random() * drawpool.length);
           await this.storeItem2(drawpool[random2]);
-          this.currentDraws.push(drawpool[random2]);
+          temppool.push(drawpool[random2]);
         }
       } else if (this.game === "bluearc") {
         // Blue Archive Gacha
@@ -213,7 +222,7 @@ export default {
           }
           const random2 = Math.floor(Math.random() * drawpool.length);
           await this.storeItem2(drawpool[random2]);
-          this.currentDraws.push(drawpool[random2]);
+          temppool.push(drawpool[random2]);
         }
       } else {
         //Uma Musume gacha
@@ -260,9 +269,10 @@ export default {
           }
           const random2 = Math.floor(Math.random() * drawpool.length);
           await this.storeItem2(drawpool[random2]);
-          this.currentDraws.push(drawpool[random2]);
+          temppool.push(drawpool[random2]);
         }
       }
+      this.currentDraws = temppool
       this.changeProcess()
     },
     changeProcess(){
