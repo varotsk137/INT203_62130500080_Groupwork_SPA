@@ -24,10 +24,10 @@
             </div>
           </template>
           <template v-slot:rollx1
-            ><img :src="getRollUrl(this.game, 1)"
+            ><img v-if="!inProcess" :src="getRollUrl(this.game, 1)"
           /></template>
           <template v-slot:rollx10
-            ><img :src="getRollUrl(this.game, 10)"
+            ><img  v-if="!inProcess" :src="getRollUrl(this.game, 10)"
           /></template>
         </base-gacha-template>
         <div
@@ -67,6 +67,7 @@ export default {
       totalRoll: 0,
       maxStar: 0,
       countMax: 0,
+      inProcess: false
     };
   },
   methods: {
@@ -127,6 +128,7 @@ export default {
     },
 
     async draw(numRoll) {
+      this.changeProcess()
       this.currentDraws = [];
       this.totalRoll += numRoll;
       if (this.game === "genshin") {
@@ -261,6 +263,11 @@ export default {
           this.currentDraws.push(drawpool[random2]);
         }
       }
+      this.changeProcess()
+    },
+    changeProcess(){
+      console.log('555555555555555555')
+      this.inProcess = !this.inProcess
     },
     async storeItem2(item) {
       try {
@@ -298,6 +305,9 @@ export default {
               itemId: item.id,
               game: item.game,
               name: item.name,
+              rarity: item.rarity,
+              type: item.type,
+              alias: item.alias,
               amount: num
             })
           })
@@ -318,6 +328,9 @@ export default {
               itemId: item.id,
               game: item.game,
               name: item.name,
+              rarity: item.rarity,
+              type: item.type,
+              alias: item.alias,
               amount: 1
             })
           })
